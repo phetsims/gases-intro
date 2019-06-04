@@ -1,6 +1,6 @@
 {
   "name": "gases-intro",
-  "version": "1.0.0-dev.1",
+  "version": "1.0.0-dev.0",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
@@ -13,6 +13,11 @@
     "requirejsNamespace": "GASES_INTRO",
     "simulation": true,
     "runnable": true,
+    "colorProfile": true,
+    "phetLibs": [
+      "gas-properties",
+      "twixt"
+    ],
     "supportedBrands": [
       "phet",
       "adapted-from-phet"
