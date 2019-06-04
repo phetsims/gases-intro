@@ -9,32 +9,34 @@ define( require => {
   'use strict';
 
   // modules
+  const GasPropertiesConstants = require( 'GAS_PROPERTIES/common/GasPropertiesConstants' );
+  const GasPropertiesGlobalOptionsNode = require( 'GAS_PROPERTIES/common/view/GasPropertiesGlobalOptionsNode' );
+  const IntroScreen = require( 'GASES_INTRO/intro/IntroScreen' );
+  const LawsScreen = require( 'GASES_INTRO/laws/LawsScreen' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
-  const GasesIntroScreen = require( 'GASES_INTRO/gases-intro/GasesIntroScreen' );
   const Tandem = require( 'TANDEM/Tandem' );
 
   // strings
   const gasesIntroTitleString = require( 'string!GASES_INTRO/gases-intro.title' );
 
   const simOptions = {
-    credits: {
-      //TODO fill in credits, all of these fields are optional, see joist.CreditsNode
-      leadDesign: '',
-      softwareDevelopment: '',
-      team: '',
-      qualityAssurance: '',
-      graphicArts: '',
-      soundDesign: '',
-      thanks: ''
-    }
+
+    // Contents of the Options dialog, accessible via the PhET menu
+    optionsNode: new GasPropertiesGlobalOptionsNode( {
+      hasPressureNoiseCheckbox: false // pressure noise is irrelevant in Diffusion because there is no pressure gauge
+    } ),
+
+    // Credits appear in the About dialog, accessible via the PhET menu
+    credits: GasPropertiesConstants.CREDITS
   };
 
   // launch the sim - beware that scenery Image nodes created outside of SimLauncher.launch() will have zero bounds
   // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
   SimLauncher.launch( () => {
     const sim = new Sim( gasesIntroTitleString, [
-      new GasesIntroScreen( Tandem.rootTandem.createTandem( 'gasesIntroScreen' ) )
+      new IntroScreen( Tandem.rootTandem.createTandem( 'introScreen' ) ),
+      new LawsScreen( Tandem.rootTandem.createTandem( 'lawsScreen' ) )
     ], simOptions );
     sim.start();
   } );
