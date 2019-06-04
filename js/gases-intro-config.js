@@ -30,6 +30,7 @@ require.config( {
     BRAND: '../../brand/' + phet.chipper.brand + '/js',
     DOT: '../../dot/js',
     GASES_INTRO: '.',
+    GAS_PROPERTIES: '../../gas-properties/js',
     JOIST: '../../joist/js',
     KITE: '../../kite/js',
     PHETCOMMON: '../../phetcommon/js',
@@ -40,7 +41,8 @@ require.config( {
     SCENERY_PHET: '../../scenery-phet/js',
     SUN: '../../sun/js',
     TAMBO: '../../tambo/js',
-    TANDEM: '../../tandem/js'
+    TANDEM: '../../tandem/js',
+    TWIXT: '../../twixt/js'
   },
 
   // optional cache bust to make browser refresh load all included scripts, can be disabled with ?cacheBust=false
