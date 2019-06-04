@@ -10,6 +10,7 @@ define( require => {
 
   // modules
   const GasPropertiesConstants = require( 'GAS_PROPERTIES/common/GasPropertiesConstants' );
+  const GasPropertiesGlobalOptions = require( 'GAS_PROPERTIES/common/GasPropertiesGlobalOptions' );
   const GasPropertiesGlobalOptionsNode = require( 'GAS_PROPERTIES/common/view/GasPropertiesGlobalOptionsNode' );
   const IntroScreen = require( 'GASES_INTRO/intro/IntroScreen' );
   const LawsScreen = require( 'GASES_INTRO/laws/LawsScreen' );
@@ -19,6 +20,15 @@ define( require => {
 
   // strings
   const gasesIntroTitleString = require( 'string!GASES_INTRO/gases-intro.title' );
+
+  /**
+   * If the pressureNoise query parameter was not specified in the URL, then set it to false.
+   * The default is true for Gas Properties, and this is a workaround to change that default
+   * for this derivative sim.  See https://github.com/phetsims/gases-intro/issues/3
+   */
+  if ( !QueryStringMachine.containsKey( 'pressureNoise' ) ) {
+    GasPropertiesGlobalOptions.pressureNoiseProperty.value = false;
+  }
 
   const simOptions = {
 
