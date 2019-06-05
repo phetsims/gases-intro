@@ -1,8 +1,8 @@
 // Copyright 2019, University of Colorado Boulder
 
 /**
- * The 'Intro' screen is a variation of the 'Ideal' screen from Gas Properties sim.  It has a different title
- * and no 'Hold Constant' control.
+ * The 'Intro' screen is a specialization of the 'Ideal' screen from Gas Properties sim.
+ * It has a different title & icon, and no 'Hold Constant' control.
  *
  * @author Chris Malley (PixelZoom, Inc.)
  */
@@ -11,6 +11,7 @@ define( require => {
 
   // modules
   const gasesIntro = require( 'GASES_INTRO/gasesIntro' );
+  const GasPropertiesIconFactory = require( 'GAS_PROPERTIES/common/view/GasPropertiesIconFactory' );
   const IdealScreen = require( 'GAS_PROPERTIES/ideal/IdealScreen' );
   const Tandem = require( 'TANDEM/Tandem' );
 
@@ -27,6 +28,7 @@ define( require => {
 
       super( tandem, {
         name: screenIntroString,
+        homeScreenIcon: GasPropertiesIconFactory.createIntroScreenIcon(),
         hasHoldConstantControls: false
       } );
     }
