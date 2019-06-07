@@ -7,5 +7,5 @@ In the _Intro_ screen, the "Hold Constant" radio buttons are hidden.
 
 The _Laws_ screen is identical to the _Ideal_ screen.
 
-In _Gas Properties_, pressure noise is on by default.  In this sim, pressure noise if off by default.  
+In _Gas Properties_, pressure noise is _on_ by default.  In this sim, pressure noise if _off_ by default.  
 If desired, it can be enabled using query parameter `pressureNoise=true`.
