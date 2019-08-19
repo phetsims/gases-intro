@@ -1,5 +1,5 @@
 {
-  "comment": "# gases-intro 1.0.0 Mon Aug 19 2019 13:54:30 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# gases-intro 1.0.1-rc.1 Mon Aug 19 2019 16:57:27 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "201c50a840e082354b013f4ab9e9d45006f98cfe",
     "branch": "HEAD"
@@ -25,12 +25,12 @@
     "branch": "HEAD"
   },
   "gases-intro": {
-    "sha": "f2d98d6df58ad777d9a22be248144d72a9a78a7d",
+    "sha": "4b420a358a654e66e483cf9382218b6f7fcda28e",
     "branch": "1.0"
   },
   "joist": {
     "sha": "41ec7f07ec13b2b443745742e64b1f660ed18c4f",
-    "branch": "gases-intro-1.0"
+    "branch": "HEAD"
   },
   "kite": {
     "sha": "34e7bdb4379b8faab55c728fdd462d4477f77fe7",
@@ -62,11 +62,11 @@
   },
   "scenery": {
     "sha": "e4372eec02ab2a72a5c45de5ff7e99c5fbf35adf",
-    "branch": "gases-intro-1.0"
+    "branch": "HEAD"
   },
   "scenery-phet": {
     "sha": "d8bd82ef61dea2a2fca0f104dbef078c210b782c",
-    "branch": "gases-intro-1.0"
+    "branch": "HEAD"
   },
   "sherpa": {
     "sha": "4877464e8013ff1459091c854a8c2234c3d0e7d6",
