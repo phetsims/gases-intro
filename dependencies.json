@@ -1,5 +1,5 @@
 {
-  "comment": "# gases-intro 1.0.3 Mon Oct 14 2019 14:23:09 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# gases-intro 1.0.3 Tue Oct 15 2019 14:08:54 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "201c50a840e082354b013f4ab9e9d45006f98cfe",
     "branch": "HEAD"
@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "gases-intro": {
-    "sha": "6a3e03ea945fc8e2923638b5c374bb47e17625bd",
+    "sha": "d88d4e6f5e6bba6bf8e2d22cdb3f670f851955a5",
     "branch": "1.0"
   },
   "joist": {
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "phet-core": {
-    "sha": "229c2d8ac1be9647a883ff79226dde059a5b5eb9",
+    "sha": "4baaadff21ad85c380cc798369c3775121d8d25f",
     "branch": "gases-intro-1.0"
   },
   "phet-io": {
