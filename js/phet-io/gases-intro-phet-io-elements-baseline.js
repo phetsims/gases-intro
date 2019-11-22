@@ -4,7 +4,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.activeProperty": {
       "phetioDocumentation": "Determines whether the entire simulation is running and processing user input. Setting this property to false pauses the simulation, and prevents user interaction.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -17,7 +17,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.barrierRectangle": {
       "phetioDocumentation": "Semi-transparent barrier used to block input events when a dialog is shown, also fades out the background",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -30,7 +30,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.barrierRectangle.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -43,7 +43,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.barrierRectangle.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -56,7 +56,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.barrierRectangle.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -69,7 +69,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.barrierRectangle.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -82,7 +82,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.barrierRectangle.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -95,7 +95,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.barrierRectangle.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -108,7 +108,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.browserTabVisibleProperty": {
       "phetioDocumentation": "Indicates whether the browser tab containing the simulation is currently visible",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -121,7 +121,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.mouseDownAction": {
       "phetioDocumentation": "Emits when a mouse button is pressed The arguments are:<br/><ol><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -134,7 +134,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.mouseMovedAction": {
       "phetioDocumentation": "Emits when the mouse is moved The arguments are:<br/><ol><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -147,7 +147,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.mouseOutAction": {
       "phetioDocumentation": "Emits when the mouse moves out of the display The arguments are:<br/><ol><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -160,7 +160,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.mouseOverAction": {
       "phetioDocumentation": "Emits when the mouse is moved over a Node The arguments are:<br/><ol><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -173,7 +173,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.mouseUpAction": {
       "phetioDocumentation": "Emits when a mouse button is released The arguments are:<br/><ol><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -186,7 +186,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.penCancelAction": {
       "phetioDocumentation": "Emits when a pen is canceled The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -199,7 +199,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.penEndAction": {
       "phetioDocumentation": "Emits when a pen is lifted The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -212,7 +212,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.penMoveAction": {
       "phetioDocumentation": "Emits when a pen is moved The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -225,7 +225,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.penStartAction": {
       "phetioDocumentation": "Emits when a pen touches the screen The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -238,7 +238,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.touchCancelAction": {
       "phetioDocumentation": "Emits when a touch is canceled The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -251,7 +251,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.touchEndAction": {
       "phetioDocumentation": "Emits when a touch ends The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -264,7 +264,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.touchMoveAction": {
       "phetioDocumentation": "Emits when a touch moves The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -277,7 +277,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.touchStartAction": {
       "phetioDocumentation": "Emits when a touch begins The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -290,7 +290,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.validatePointersAction": {
       "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -303,7 +303,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.controller.input.wheelScrollAction": {
       "phetioDocumentation": "Emits when the mouse wheel scrolls The arguments are:<br/><ol><li>event: DOMEventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -316,7 +316,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.focusProperty": {
       "phetioDocumentation": "Stores the current focus for the simulation, null if there is not focus. This is not updated based on mouse or touch input, only keyboard and other alternative inputs.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -329,7 +329,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.homeButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -342,7 +342,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.homeButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -355,7 +355,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.homeButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -368,7 +368,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.homeButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -381,7 +381,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.homeButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -394,7 +394,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.homeButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -407,7 +407,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.homeButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -420,7 +420,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.homeButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -433,7 +433,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton": {
       "phetioDocumentation": "Button in the navigation bar that selects the 'introScreen' screen",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -446,7 +446,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -459,7 +459,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -472,7 +472,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.icon": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -485,7 +485,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.icon.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -498,7 +498,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.icon.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -511,7 +511,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.icon.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -524,7 +524,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -537,7 +537,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -550,7 +550,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -563,7 +563,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -576,7 +576,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.text": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -589,7 +589,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.text.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -602,7 +602,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.text.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -615,7 +615,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.text.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -628,7 +628,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.text.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -641,7 +641,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.introScreenButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -654,7 +654,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton": {
       "phetioDocumentation": "Button in the navigation bar that selects the 'lawsScreen' screen",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -667,7 +667,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -680,7 +680,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -693,7 +693,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.icon": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -706,7 +706,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.icon.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -719,7 +719,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.icon.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -732,7 +732,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.icon.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -745,7 +745,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -758,7 +758,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -771,7 +771,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -784,7 +784,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -797,7 +797,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.text": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -810,7 +810,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.text.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -823,7 +823,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.text.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -836,7 +836,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.text.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -849,7 +849,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.text.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -862,7 +862,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.lawsScreenButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -875,7 +875,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton": {
       "phetioDocumentation": "The button that appears at the right side of the navigation bar, which shows a menu when pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -888,7 +888,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -901,7 +901,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -914,7 +914,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu": {
       "phetioDocumentation": "This menu is displayed when the PhET button is pressed.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -927,7 +927,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -937,10 +937,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PhetioCapsuleIO<DialogIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -950,10 +950,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "DialogIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.closeButton": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -963,10 +963,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.closeButton.enabledProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -976,10 +976,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.closeButton.firedEmitter": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -989,10 +989,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.closeButton.opacityProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1002,10 +1002,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.closeButton.pickableProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1015,10 +1015,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.closeButton.pressListener.pressAction": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1028,10 +1028,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<EventIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.closeButton.pressListener.releaseAction": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1041,10 +1041,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<EventIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.closeButton.visibleProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -1054,10 +1054,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.isShowingProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.isShowingProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1067,10 +1067,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.opacityProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1080,10 +1080,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.pickableProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1093,10 +1093,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.termsPrivacyAndLicensingText": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingText": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1106,10 +1106,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "RichTextIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.termsPrivacyAndLicensingText.opacityProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingText.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1119,10 +1119,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.termsPrivacyAndLicensingText.pickableProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingText.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1132,10 +1132,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.termsPrivacyAndLicensingText.textProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingText.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1145,10 +1145,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.termsPrivacyAndLicensingText.visibleProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingText.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1158,10 +1158,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.thirdPartyCreditsLinkText": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1171,10 +1171,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "RichTextIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.thirdPartyCreditsLinkText.opacityProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1184,10 +1184,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.thirdPartyCreditsLinkText.pickableProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1197,10 +1197,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.thirdPartyCreditsLinkText.textProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1210,10 +1210,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.thirdPartyCreditsLinkText.visibleProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1223,10 +1223,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.translationCreditsLinkText": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1236,10 +1236,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "RichTextIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.translationCreditsLinkText.opacityProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1249,10 +1249,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.translationCreditsLinkText.pickableProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1262,10 +1262,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.translationCreditsLinkText.textProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1275,10 +1275,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.translationCreditsLinkText.visibleProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1288,10 +1288,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.prototype.visibleProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1304,7 +1304,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutMenuItem": {
       "phetioDocumentation": "This menu item shows a dialog with information about the simulation.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1317,7 +1317,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutMenuItem.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1330,7 +1330,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutMenuItem.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1343,7 +1343,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutMenuItem.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1356,7 +1356,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutMenuItem.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1369,7 +1369,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutMenuItem.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -1382,7 +1382,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutMenuItem.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -1395,7 +1395,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1405,10 +1405,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PhetioCapsuleIO<DialogIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1418,10 +1418,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "DialogIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.closeButton": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.closeButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1431,10 +1431,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.closeButton.enabledProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.closeButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -1444,10 +1444,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.closeButton.firedEmitter": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.closeButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1457,10 +1457,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.closeButton.opacityProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.closeButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1470,10 +1470,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.closeButton.pickableProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.closeButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1483,10 +1483,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.closeButton.pressListener.pressAction": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.closeButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1496,10 +1496,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<EventIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.closeButton.pressListener.releaseAction": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.closeButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1509,10 +1509,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<EventIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.closeButton.visibleProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.closeButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -1522,10 +1522,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1535,10 +1535,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.opacityProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1548,10 +1548,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.pickableProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1561,10 +1561,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.pressureNoiseCheckbox": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.pressureNoiseCheckbox": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1574,10 +1574,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.pressureNoiseCheckbox.enabledProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.pressureNoiseCheckbox.enabledProperty": {
       "phetioDocumentation": "When disabled, the checkbox is grayed out and cannot be pressed.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -1587,10 +1587,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.pressureNoiseCheckbox.opacityProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.pressureNoiseCheckbox.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1600,10 +1600,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.pressureNoiseCheckbox.pickableProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.pressureNoiseCheckbox.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1613,10 +1613,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.pressureNoiseCheckbox.property": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.pressureNoiseCheckbox.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1626,10 +1626,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "LinkedElementIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.pressureNoiseCheckbox.toggleAction": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.pressureNoiseCheckbox.toggleAction": {
       "phetioDocumentation": "Emits when user input causes the checkbox to toggle, emitting a single arg: the new boolean value of the checkbox state. The arguments are:<br/><ol><li>isChecked: BooleanIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1639,10 +1639,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.pressureNoiseCheckbox.visibleProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.pressureNoiseCheckbox.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -1652,10 +1652,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.projectorModeCheckbox": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.projectorModeCheckbox": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1665,10 +1665,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.projectorModeCheckbox.enabledProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.projectorModeCheckbox.enabledProperty": {
       "phetioDocumentation": "When disabled, the checkbox is grayed out and cannot be pressed.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -1678,10 +1678,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.projectorModeCheckbox.opacityProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.projectorModeCheckbox.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1691,10 +1691,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.projectorModeCheckbox.pickableProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.projectorModeCheckbox.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1704,10 +1704,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.projectorModeCheckbox.projectorModeEnabledProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.projectorModeCheckbox.projectorModeEnabledProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1717,10 +1717,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.projectorModeCheckbox.property": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.projectorModeCheckbox.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1730,10 +1730,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "LinkedElementIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.projectorModeCheckbox.toggleAction": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.projectorModeCheckbox.toggleAction": {
       "phetioDocumentation": "Emits when user input causes the checkbox to toggle, emitting a single arg: the new boolean value of the checkbox state. The arguments are:<br/><ol><li>isChecked: BooleanIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1743,10 +1743,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.projectorModeCheckbox.visibleProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.projectorModeCheckbox.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -1756,10 +1756,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.content.visibleProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1769,10 +1769,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.isShowingProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.isShowingProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1782,10 +1782,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.opacityProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1795,10 +1795,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.pickableProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1808,10 +1808,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.title": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.title": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1821,10 +1821,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.title.opacityProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.title.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1834,10 +1834,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.title.pickableProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.title.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1847,10 +1847,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.title.textProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.title.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1860,10 +1860,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.title.visibleProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.title.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1873,10 +1873,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.prototype.visibleProperty": {
+    "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": true,
+      "phetioDynamicElementArchetype": true,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1889,7 +1889,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsMenuItem": {
       "phetioDocumentation": "This menu item shows an options dialog.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1902,7 +1902,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsMenuItem.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1915,7 +1915,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsMenuItem.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1928,7 +1928,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsMenuItem.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1941,7 +1941,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsMenuItem.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1954,7 +1954,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsMenuItem.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1967,7 +1967,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsMenuItem.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1980,7 +1980,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.screenshotMenuItem": {
       "phetioDocumentation": "This menu item captures a screenshot from the simulation and saves it to the file system.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -1993,7 +1993,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2006,7 +2006,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2019,7 +2019,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2032,7 +2032,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2045,7 +2045,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2058,7 +2058,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -2071,7 +2071,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.pickableProperty": {
       "phetioDocumentation": "Set whether the phetButton will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2084,7 +2084,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2097,7 +2097,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.phetButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2110,7 +2110,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.titleTextNode": {
       "phetioDocumentation": "Displays the title of the simulation in the navigation bar (bottom left)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2123,7 +2123,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.titleTextNode.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2136,7 +2136,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.titleTextNode.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2149,7 +2149,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.titleTextNode.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2162,7 +2162,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.navigationBar.titleTextNode.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2175,7 +2175,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.phetioCommandProcessor": {
       "phetioDocumentation": "Processes messages from the wrapper frame and returns the results. This serves as the source of PhET-iO data stream messages when commands are invoked from the wrapper.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2188,7 +2188,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.resizeAction": {
       "phetioDocumentation": "Executes when the sim is resized The arguments are:<br/><ol><li>width: NumberIO</li><br/><li>height: NumberIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2201,7 +2201,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.screenIndexProperty": {
       "phetioDocumentation": "Indicates which screen is selected (0-indexed)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -2214,7 +2214,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.showHomeScreenProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -2227,7 +2227,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.soundEnabledProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2240,7 +2240,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.general.stepSimulationAction": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>dt: NumberIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -2253,7 +2253,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.global.colorProfile.profileNameProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2266,7 +2266,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.global.options.pressureNoiseProperty": {
       "phetioDocumentation": "turns noise on and off for the pressure gauge",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2279,7 +2279,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.activeProperty": {
       "phetioDocumentation": "Indicates whether the screen is active.  For single-screen simulations, the screen is always active.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2292,7 +2292,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2305,7 +2305,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton": {
       "phetioDocumentation": "A pressable button in the simulation, in the home screen",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2318,7 +2318,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2331,7 +2331,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2344,7 +2344,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2357,7 +2357,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2370,7 +2370,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2383,7 +2383,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton.text": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2396,7 +2396,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton.text.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2409,7 +2409,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton.text.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2422,7 +2422,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton.text.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2435,7 +2435,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton.text.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2448,7 +2448,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenLargeButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2461,7 +2461,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton": {
       "phetioDocumentation": "A pressable button in the simulation, in the home screen",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2474,7 +2474,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2487,7 +2487,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2500,7 +2500,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2513,7 +2513,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2526,7 +2526,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2539,7 +2539,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton.text": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2552,7 +2552,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton.text.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2565,7 +2565,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton.text.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2578,7 +2578,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton.text.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2591,7 +2591,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton.text.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2604,7 +2604,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.introScreenSmallButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2617,7 +2617,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton": {
       "phetioDocumentation": "A pressable button in the simulation, in the home screen",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2630,7 +2630,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2643,7 +2643,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2656,7 +2656,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2669,7 +2669,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2682,7 +2682,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2695,7 +2695,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.text": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2708,7 +2708,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.text.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2721,7 +2721,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.text.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2734,7 +2734,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.text.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2747,7 +2747,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.text.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2760,7 +2760,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2773,7 +2773,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton": {
       "phetioDocumentation": "A pressable button in the simulation, in the home screen",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2786,7 +2786,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2799,7 +2799,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2812,7 +2812,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2825,7 +2825,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2838,7 +2838,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2851,7 +2851,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.text": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2864,7 +2864,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.text.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2877,7 +2877,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.text.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2890,7 +2890,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.text.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2903,7 +2903,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.text.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2916,7 +2916,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2929,7 +2929,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2942,7 +2942,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2955,7 +2955,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.title": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2968,7 +2968,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.title.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2981,7 +2981,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.title.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -2994,7 +2994,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.title.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3007,7 +3007,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.title.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3020,7 +3020,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.homeScreen.view.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3033,7 +3033,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.activeProperty": {
       "phetioDocumentation": "Indicates whether the screen is active.  For single-screen simulations, the screen is always active.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3046,7 +3046,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.collisionCounter.isRunningProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3059,7 +3059,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.collisionCounter.locationProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3072,7 +3072,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.collisionCounter.numberOfCollisionsProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3085,7 +3085,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.collisionCounter.samplePeriodProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3098,7 +3098,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.collisionCounter.visibleProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3111,7 +3111,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.container.lidIsOnProperty": {
       "phetioDocumentation": "whether the lid is on the container, or has been blown off",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3124,7 +3124,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.container.lidWidthProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3137,7 +3137,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.heatCoolFactorProperty": {
       "phetioDocumentation": "The amount of heat or cool applied to particles in the container. -1 is maximum cooling, +1 is maximum heat, 0 is off",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3150,7 +3150,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.holdConstantProperty": {
       "phetioDocumentation": "determines which quantity will be held constant",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3163,7 +3163,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.isPlayingProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3176,7 +3176,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.isSlowMotionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3189,7 +3189,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.particleParticleCollisionsEnabledProperty": {
       "phetioDocumentation": "determines whether collisions between particles are enabled",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3202,7 +3202,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.particleSystem.numberOfHeavyParticlesProperty": {
       "phetioDocumentation": "the number of heavy particles in the container",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3215,7 +3215,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.particleSystem.numberOfLightParticlesProperty": {
       "phetioDocumentation": "the number of light particles in the container",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3228,7 +3228,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.particleSystem.numberOfParticlesProperty": {
       "phetioDocumentation": "the total number of particles in the container",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3241,7 +3241,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.pressureModel.pressureGauge.pressureAtmospheresProperty": {
       "phetioDocumentation": "pressure in atm, with optional noise added",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3254,7 +3254,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.pressureModel.pressureGauge.pressureKilopascalsProperty": {
       "phetioDocumentation": "pressure in K, with optional noise added",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3267,7 +3267,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.pressureModel.pressureGauge.unitsProperty": {
       "phetioDocumentation": "units displayed by the pressure gauge",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3280,7 +3280,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.pressureModel.pressureProperty": {
       "phetioDocumentation": "pressure in K, with no noise",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3293,7 +3293,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.stopwatch.isRunningProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3306,7 +3306,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.stopwatch.locationProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3319,7 +3319,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.stopwatch.timeProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3332,7 +3332,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.stopwatch.visibleProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3345,7 +3345,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.temperatureModel.controlTemperatureEnabledProperty": {
       "phetioDocumentation": "indicates whether initial temperature is controlled by the user",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3358,7 +3358,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.temperatureModel.initialTemperatureProperty": {
       "phetioDocumentation": "temperature used to determine the initial speed of particles when controlled by the user",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3371,7 +3371,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.temperatureModel.temperatureProperty": {
       "phetioDocumentation": "temperature in K",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3384,7 +3384,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.temperatureModel.thermometer.temperatureCelsiusProperty": {
       "phetioDocumentation": "temperature in degrees C",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3397,7 +3397,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.model.temperatureModel.thermometer.unitsProperty": {
       "phetioDocumentation": "units displayed by the thermometer",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3410,7 +3410,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3423,7 +3423,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.containerNode": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3436,7 +3436,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.containerNode.lidDragListener.dragAction": {
       "phetioDocumentation": "Emits whenever a drag occurs with an EventIO argument. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -3449,7 +3449,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.containerNode.lidDragListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3462,7 +3462,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.containerNode.lidDragListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3475,7 +3475,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.containerNode.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3488,7 +3488,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.containerNode.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3501,7 +3501,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.containerNode.resizeDragListener.dragAction": {
       "phetioDocumentation": "Emits whenever a drag occurs with an EventIO argument. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -3514,7 +3514,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.containerNode.resizeDragListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3527,7 +3527,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.containerNode.resizeDragListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3540,7 +3540,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.containerNode.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3553,7 +3553,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3566,7 +3566,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.collisionCounterCheckbox": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3579,7 +3579,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.collisionCounterCheckbox.enabledProperty": {
       "phetioDocumentation": "When disabled, the checkbox is grayed out and cannot be pressed.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -3592,7 +3592,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.collisionCounterCheckbox.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3605,7 +3605,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.collisionCounterCheckbox.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3618,7 +3618,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.collisionCounterCheckbox.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3631,7 +3631,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.collisionCounterCheckbox.toggleAction": {
       "phetioDocumentation": "Emits when user input causes the checkbox to toggle, emitting a single arg: the new boolean value of the checkbox state. The arguments are:<br/><ol><li>isChecked: BooleanIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3644,7 +3644,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.collisionCounterCheckbox.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -3657,7 +3657,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3670,7 +3670,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3683,7 +3683,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.stopwatchCheckbox": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3696,7 +3696,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.stopwatchCheckbox.enabledProperty": {
       "phetioDocumentation": "When disabled, the checkbox is grayed out and cannot be pressed.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -3709,7 +3709,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.stopwatchCheckbox.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3722,7 +3722,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.stopwatchCheckbox.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3735,7 +3735,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.stopwatchCheckbox.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3748,7 +3748,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.stopwatchCheckbox.toggleAction": {
       "phetioDocumentation": "Emits when user input causes the checkbox to toggle, emitting a single arg: the new boolean value of the checkbox state. The arguments are:<br/><ol><li>isChecked: BooleanIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3761,7 +3761,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.stopwatchCheckbox.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -3774,7 +3774,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3787,7 +3787,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.widthCheckbox": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3800,7 +3800,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.widthCheckbox.enabledProperty": {
       "phetioDocumentation": "When disabled, the checkbox is grayed out and cannot be pressed.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -3813,7 +3813,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.widthCheckbox.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3826,7 +3826,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.widthCheckbox.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3839,7 +3839,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.widthCheckbox.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3852,7 +3852,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.widthCheckbox.toggleAction": {
       "phetioDocumentation": "Emits when user input causes the checkbox to toggle, emitting a single arg: the new boolean value of the checkbox state. The arguments are:<br/><ol><li>isChecked: BooleanIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3865,7 +3865,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.controlPanel.widthCheckbox.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -3878,7 +3878,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.heavyBicyclePumpNode": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3891,7 +3891,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.heavyBicyclePumpNode.handleDragListener.dragAction": {
       "phetioDocumentation": "Emits whenever a drag occurs with an EventIO argument. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -3904,7 +3904,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.heavyBicyclePumpNode.handleDragListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3917,7 +3917,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.heavyBicyclePumpNode.handleDragListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3930,7 +3930,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.heavyBicyclePumpNode.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3943,7 +3943,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.heavyBicyclePumpNode.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3956,7 +3956,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.heavyBicyclePumpNode.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3969,7 +3969,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.lightBicyclePumpNode": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -3982,7 +3982,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.lightBicyclePumpNode.handleDragListener.dragAction": {
       "phetioDocumentation": "Emits whenever a drag occurs with an EventIO argument. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -3995,7 +3995,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.lightBicyclePumpNode.handleDragListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4008,7 +4008,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.lightBicyclePumpNode.handleDragListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4021,7 +4021,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.lightBicyclePumpNode.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4034,7 +4034,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.lightBicyclePumpNode.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4047,7 +4047,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.lightBicyclePumpNode.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4060,7 +4060,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4073,7 +4073,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4086,7 +4086,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.heavyParticles": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4099,7 +4099,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.heavyParticles.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4112,7 +4112,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.heavyParticles.firedEmitter": {
       "phetioDocumentation": "Emits when the radio button is pressed No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4125,7 +4125,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.heavyParticles.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4138,7 +4138,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.heavyParticles.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4151,7 +4151,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.heavyParticles.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4164,7 +4164,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.heavyParticles.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4177,7 +4177,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.heavyParticles.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4190,7 +4190,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.lightParticles": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4203,7 +4203,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.lightParticles.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4216,7 +4216,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.lightParticles.firedEmitter": {
       "phetioDocumentation": "Emits when the radio button is pressed No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4229,7 +4229,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.lightParticles.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4242,7 +4242,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.lightParticles.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4255,7 +4255,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.lightParticles.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4268,7 +4268,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.lightParticles.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4281,7 +4281,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.lightParticles.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4294,7 +4294,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4307,7 +4307,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4320,7 +4320,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particleTypeRadioButtonGroup.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4333,7 +4333,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4346,7 +4346,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.expandCollapseButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4359,7 +4359,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.expandCollapseButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4372,7 +4372,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.expandCollapseButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4385,7 +4385,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.expandCollapseButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4398,7 +4398,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.expandCollapseButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4411,7 +4411,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.expandCollapseButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4424,7 +4424,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.expandCollapseButton.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4437,7 +4437,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.expandCollapseButton.toggledEmitter": {
       "phetioDocumentation": "Emits when the button is toggled No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4450,7 +4450,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.expandCollapseButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4463,7 +4463,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4476,7 +4476,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4489,7 +4489,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.particlesAccordionBox.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4502,7 +4502,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4515,7 +4515,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.resetAllButton": {
       "phetioDocumentation": "The orange, round button that can be used to restore the initial state",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4528,7 +4528,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.resetAllButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4541,7 +4541,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.resetAllButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4554,7 +4554,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.resetAllButton.isFiringProperty": {
       "phetioDocumentation": "Temporarily becomes true while the Reset All button is firing.  Commonly used to disable audio effects during reset.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4567,7 +4567,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.resetAllButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4580,7 +4580,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.resetAllButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4593,7 +4593,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.resetAllButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4606,7 +4606,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.resetAllButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4619,7 +4619,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.resetAllButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4632,7 +4632,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.returnLidButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4645,7 +4645,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.returnLidButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4658,7 +4658,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.returnLidButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4671,7 +4671,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.returnLidButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4684,7 +4684,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.returnLidButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4697,7 +4697,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.returnLidButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4710,7 +4710,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.returnLidButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4723,7 +4723,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.returnLidButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4736,7 +4736,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4749,7 +4749,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.enabledProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4762,7 +4762,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4775,7 +4775,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4788,7 +4788,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4801,7 +4801,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4814,7 +4814,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4827,7 +4827,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4840,7 +4840,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4853,7 +4853,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4866,7 +4866,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4879,7 +4879,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.toggleNode": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4892,7 +4892,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.toggleNode.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4905,7 +4905,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.toggleNode.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4918,7 +4918,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.toggleNode.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4931,7 +4931,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.toggledEmitter": {
       "phetioDocumentation": "Emits when the button is toggled No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4944,7 +4944,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.playPauseButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4957,7 +4957,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.stepForwardButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4970,7 +4970,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.stepForwardButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -4983,7 +4983,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.stepForwardButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -4996,7 +4996,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.stepForwardButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5009,7 +5009,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.stepForwardButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5022,7 +5022,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.stepForwardButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5035,7 +5035,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.stepForwardButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5048,7 +5048,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.stepForwardButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -5061,7 +5061,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.timeControlNode.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5074,7 +5074,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.viewProperties.particleTypeProperty": {
       "phetioDocumentation": "the particle type that will be dispensed by the bicycle pump",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5087,7 +5087,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.viewProperties.particlesExpandedProperty": {
       "phetioDocumentation": "whether the Particles accordion box is expanded",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5100,7 +5100,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.viewProperties.widthVisibleProperty": {
       "phetioDocumentation": "whether dimensional arrows are visible for the width of the container",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5113,7 +5113,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.introScreen.view.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5126,7 +5126,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.activeProperty": {
       "phetioDocumentation": "Indicates whether the screen is active.  For single-screen simulations, the screen is always active.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5139,7 +5139,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.collisionCounter.isRunningProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5152,7 +5152,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.collisionCounter.locationProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5165,7 +5165,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.collisionCounter.numberOfCollisionsProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5178,7 +5178,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.collisionCounter.samplePeriodProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5191,7 +5191,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.collisionCounter.visibleProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5204,7 +5204,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.container.lidIsOnProperty": {
       "phetioDocumentation": "whether the lid is on the container, or has been blown off",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5217,7 +5217,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.container.lidWidthProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5230,7 +5230,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.heatCoolFactorProperty": {
       "phetioDocumentation": "The amount of heat or cool applied to particles in the container. -1 is maximum cooling, +1 is maximum heat, 0 is off",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5243,7 +5243,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.holdConstantProperty": {
       "phetioDocumentation": "determines which quantity will be held constant",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5256,7 +5256,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.isPlayingProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5269,7 +5269,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.isSlowMotionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5282,7 +5282,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.particleParticleCollisionsEnabledProperty": {
       "phetioDocumentation": "determines whether collisions between particles are enabled",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5295,7 +5295,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.particleSystem.numberOfHeavyParticlesProperty": {
       "phetioDocumentation": "the number of heavy particles in the container",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5308,7 +5308,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.particleSystem.numberOfLightParticlesProperty": {
       "phetioDocumentation": "the number of light particles in the container",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5321,7 +5321,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.particleSystem.numberOfParticlesProperty": {
       "phetioDocumentation": "the total number of particles in the container",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5334,7 +5334,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.pressureModel.pressureGauge.pressureAtmospheresProperty": {
       "phetioDocumentation": "pressure in atm, with optional noise added",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5347,7 +5347,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.pressureModel.pressureGauge.pressureKilopascalsProperty": {
       "phetioDocumentation": "pressure in K, with optional noise added",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5360,7 +5360,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.pressureModel.pressureGauge.unitsProperty": {
       "phetioDocumentation": "units displayed by the pressure gauge",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5373,7 +5373,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.pressureModel.pressureProperty": {
       "phetioDocumentation": "pressure in K, with no noise",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5386,7 +5386,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.stopwatch.isRunningProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5399,7 +5399,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.stopwatch.locationProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5412,7 +5412,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.stopwatch.timeProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5425,7 +5425,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.stopwatch.visibleProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5438,7 +5438,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.temperatureModel.controlTemperatureEnabledProperty": {
       "phetioDocumentation": "indicates whether initial temperature is controlled by the user",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5451,7 +5451,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.temperatureModel.initialTemperatureProperty": {
       "phetioDocumentation": "temperature used to determine the initial speed of particles when controlled by the user",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5464,7 +5464,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.temperatureModel.temperatureProperty": {
       "phetioDocumentation": "temperature in K",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5477,7 +5477,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.temperatureModel.thermometer.temperatureCelsiusProperty": {
       "phetioDocumentation": "temperature in degrees C",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5490,7 +5490,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.model.temperatureModel.thermometer.unitsProperty": {
       "phetioDocumentation": "units displayed by the thermometer",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5503,7 +5503,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5516,7 +5516,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.containerNode": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5529,7 +5529,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.containerNode.lidDragListener.dragAction": {
       "phetioDocumentation": "Emits whenever a drag occurs with an EventIO argument. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -5542,7 +5542,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.containerNode.lidDragListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5555,7 +5555,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.containerNode.lidDragListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5568,7 +5568,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.containerNode.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5581,7 +5581,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.containerNode.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5594,7 +5594,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.containerNode.resizeDragListener.dragAction": {
       "phetioDocumentation": "Emits whenever a drag occurs with an EventIO argument. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -5607,7 +5607,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.containerNode.resizeDragListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5620,7 +5620,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.containerNode.resizeDragListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5633,7 +5633,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.containerNode.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5646,7 +5646,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5659,7 +5659,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.collisionCounterCheckbox": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5672,7 +5672,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.collisionCounterCheckbox.enabledProperty": {
       "phetioDocumentation": "When disabled, the checkbox is grayed out and cannot be pressed.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -5685,7 +5685,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.collisionCounterCheckbox.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5698,7 +5698,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.collisionCounterCheckbox.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5711,7 +5711,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.collisionCounterCheckbox.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5724,7 +5724,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.collisionCounterCheckbox.toggleAction": {
       "phetioDocumentation": "Emits when user input causes the checkbox to toggle, emitting a single arg: the new boolean value of the checkbox state. The arguments are:<br/><ol><li>isChecked: BooleanIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5737,7 +5737,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.collisionCounterCheckbox.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -5750,7 +5750,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.holdConstantControl": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5763,7 +5763,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.holdConstantControl.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5776,7 +5776,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.holdConstantControl.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5789,7 +5789,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.holdConstantControl.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5802,7 +5802,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5815,7 +5815,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5828,7 +5828,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.stopwatchCheckbox": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5841,7 +5841,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.stopwatchCheckbox.enabledProperty": {
       "phetioDocumentation": "When disabled, the checkbox is grayed out and cannot be pressed.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -5854,7 +5854,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.stopwatchCheckbox.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5867,7 +5867,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.stopwatchCheckbox.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5880,7 +5880,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.stopwatchCheckbox.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5893,7 +5893,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.stopwatchCheckbox.toggleAction": {
       "phetioDocumentation": "Emits when user input causes the checkbox to toggle, emitting a single arg: the new boolean value of the checkbox state. The arguments are:<br/><ol><li>isChecked: BooleanIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5906,7 +5906,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.stopwatchCheckbox.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -5919,7 +5919,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5932,7 +5932,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.widthCheckbox": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5945,7 +5945,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.widthCheckbox.enabledProperty": {
       "phetioDocumentation": "When disabled, the checkbox is grayed out and cannot be pressed.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -5958,7 +5958,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.widthCheckbox.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5971,7 +5971,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.widthCheckbox.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5984,7 +5984,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.widthCheckbox.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -5997,7 +5997,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.widthCheckbox.toggleAction": {
       "phetioDocumentation": "Emits when user input causes the checkbox to toggle, emitting a single arg: the new boolean value of the checkbox state. The arguments are:<br/><ol><li>isChecked: BooleanIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6010,7 +6010,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.controlPanel.widthCheckbox.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6023,7 +6023,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.heavyBicyclePumpNode": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6036,7 +6036,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.heavyBicyclePumpNode.handleDragListener.dragAction": {
       "phetioDocumentation": "Emits whenever a drag occurs with an EventIO argument. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -6049,7 +6049,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.heavyBicyclePumpNode.handleDragListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6062,7 +6062,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.heavyBicyclePumpNode.handleDragListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6075,7 +6075,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.heavyBicyclePumpNode.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6088,7 +6088,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.heavyBicyclePumpNode.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6101,7 +6101,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.heavyBicyclePumpNode.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6114,7 +6114,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.lightBicyclePumpNode": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6127,7 +6127,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.lightBicyclePumpNode.handleDragListener.dragAction": {
       "phetioDocumentation": "Emits whenever a drag occurs with an EventIO argument. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": true,
@@ -6140,7 +6140,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.lightBicyclePumpNode.handleDragListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6153,7 +6153,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.lightBicyclePumpNode.handleDragListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6166,7 +6166,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.lightBicyclePumpNode.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6179,7 +6179,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.lightBicyclePumpNode.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6192,7 +6192,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.lightBicyclePumpNode.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6205,7 +6205,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6218,7 +6218,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6231,7 +6231,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.heavyParticles": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6244,7 +6244,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.heavyParticles.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6257,7 +6257,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.heavyParticles.firedEmitter": {
       "phetioDocumentation": "Emits when the radio button is pressed No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6270,7 +6270,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.heavyParticles.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6283,7 +6283,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.heavyParticles.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6296,7 +6296,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.heavyParticles.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6309,7 +6309,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.heavyParticles.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6322,7 +6322,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.heavyParticles.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6335,7 +6335,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.lightParticles": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6348,7 +6348,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.lightParticles.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6361,7 +6361,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.lightParticles.firedEmitter": {
       "phetioDocumentation": "Emits when the radio button is pressed No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6374,7 +6374,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.lightParticles.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6387,7 +6387,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.lightParticles.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6400,7 +6400,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.lightParticles.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6413,7 +6413,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.lightParticles.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6426,7 +6426,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.lightParticles.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6439,7 +6439,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6452,7 +6452,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6465,7 +6465,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particleTypeRadioButtonGroup.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6478,7 +6478,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6491,7 +6491,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.expandCollapseButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6504,7 +6504,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.expandCollapseButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6517,7 +6517,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.expandCollapseButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6530,7 +6530,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.expandCollapseButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6543,7 +6543,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.expandCollapseButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6556,7 +6556,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.expandCollapseButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6569,7 +6569,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.expandCollapseButton.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6582,7 +6582,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.expandCollapseButton.toggledEmitter": {
       "phetioDocumentation": "Emits when the button is toggled No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6595,7 +6595,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.expandCollapseButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6608,7 +6608,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6621,7 +6621,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6634,7 +6634,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.particlesAccordionBox.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6647,7 +6647,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6660,7 +6660,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.resetAllButton": {
       "phetioDocumentation": "The orange, round button that can be used to restore the initial state",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6673,7 +6673,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.resetAllButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6686,7 +6686,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.resetAllButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6699,7 +6699,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.resetAllButton.isFiringProperty": {
       "phetioDocumentation": "Temporarily becomes true while the Reset All button is firing.  Commonly used to disable audio effects during reset.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6712,7 +6712,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.resetAllButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6725,7 +6725,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.resetAllButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6738,7 +6738,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.resetAllButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6751,7 +6751,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.resetAllButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6764,7 +6764,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.resetAllButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6777,7 +6777,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.returnLidButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6790,7 +6790,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.returnLidButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6803,7 +6803,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.returnLidButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6816,7 +6816,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.returnLidButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6829,7 +6829,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.returnLidButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6842,7 +6842,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.returnLidButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6855,7 +6855,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.returnLidButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6868,7 +6868,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.returnLidButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6881,7 +6881,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6894,7 +6894,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.enabledProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6907,7 +6907,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6920,7 +6920,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6933,7 +6933,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6946,7 +6946,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -6959,7 +6959,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6972,7 +6972,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6985,7 +6985,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -6998,7 +6998,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7011,7 +7011,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7024,7 +7024,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.toggleNode": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7037,7 +7037,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.toggleNode.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7050,7 +7050,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.toggleNode.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7063,7 +7063,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.toggleNode.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7076,7 +7076,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.toggledEmitter": {
       "phetioDocumentation": "Emits when the button is toggled No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7089,7 +7089,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.playPauseButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -7102,7 +7102,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.stepForwardButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7115,7 +7115,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.stepForwardButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -7128,7 +7128,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.stepForwardButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7141,7 +7141,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.stepForwardButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7154,7 +7154,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.stepForwardButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7167,7 +7167,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.stepForwardButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7180,7 +7180,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.stepForwardButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7193,7 +7193,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.stepForwardButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
       "phetioHighFrequency": false,
@@ -7206,7 +7206,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.timeControlNode.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7219,7 +7219,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.viewProperties.particleTypeProperty": {
       "phetioDocumentation": "the particle type that will be dispensed by the bicycle pump",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7232,7 +7232,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.viewProperties.particlesExpandedProperty": {
       "phetioDocumentation": "whether the Particles accordion box is expanded",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7245,7 +7245,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.viewProperties.widthVisibleProperty": {
       "phetioDocumentation": "whether dimensional arrows are visible for the width of the container",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7258,7 +7258,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "gasesIntro.lawsScreen.view.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
@@ -7271,7 +7271,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
     "phetioEngine": {
       "phetioDocumentation": "Central point for PhET-iO interoperability",
       "phetioDynamicElement": false,
-      "phetioDynamicElementPrototype": false,
+      "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
       "phetioHighFrequency": false,
