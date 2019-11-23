@@ -28,7 +28,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "NodeIO"
     },
     "gasesIntro.general.barrierRectangle.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. No arguments.",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
@@ -38,7 +38,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
+      "phetioTypeName": "EmitterIO<NullableIO<EventIO>>"
     },
     "gasesIntro.general.barrierRectangle.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
@@ -1315,7 +1315,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "NodeIO"
     },
     "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutMenuItem.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. No arguments.",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
@@ -1325,7 +1325,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
+      "phetioTypeName": "EmitterIO<NullableIO<EventIO>>"
     },
     "gasesIntro.general.navigationBar.phetButton.phetMenu.aboutMenuItem.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
@@ -1900,7 +1900,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "NodeIO"
     },
     "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsMenuItem.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. No arguments.",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
@@ -1910,7 +1910,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
+      "phetioTypeName": "EmitterIO<NullableIO<EventIO>>"
     },
     "gasesIntro.general.navigationBar.phetButton.phetMenu.optionsMenuItem.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
@@ -1991,7 +1991,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "NodeIO"
     },
     "gasesIntro.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. No arguments.",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
@@ -2001,7 +2001,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
+      "phetioTypeName": "EmitterIO<NullableIO<EventIO>>"
     },
     "gasesIntro.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
@@ -2316,7 +2316,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "NodeIO"
     },
     "gasesIntro.homeScreen.view.introScreenLargeButton.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. No arguments.",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
@@ -2326,7 +2326,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
+      "phetioTypeName": "EmitterIO<NullableIO<EventIO>>"
     },
     "gasesIntro.homeScreen.view.introScreenLargeButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
@@ -2472,7 +2472,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "NodeIO"
     },
     "gasesIntro.homeScreen.view.introScreenSmallButton.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. No arguments.",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
@@ -2482,7 +2482,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
+      "phetioTypeName": "EmitterIO<NullableIO<EventIO>>"
     },
     "gasesIntro.homeScreen.view.introScreenSmallButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
@@ -2628,7 +2628,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "NodeIO"
     },
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. No arguments.",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
@@ -2638,7 +2638,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
+      "phetioTypeName": "EmitterIO<NullableIO<EventIO>>"
     },
     "gasesIntro.homeScreen.view.lawsScreenLargeButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
@@ -2784,7 +2784,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "NodeIO"
     },
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. No arguments.",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<EventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioDynamicElementArchetype": false,
       "phetioEventType": "USER",
@@ -2794,7 +2794,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": false,
       "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
+      "phetioTypeName": "EmitterIO<NullableIO<EventIO>>"
     },
     "gasesIntro.homeScreen.view.lawsScreenSmallButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the Event. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
