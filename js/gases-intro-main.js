@@ -45,8 +45,8 @@ define( require => {
   // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
   SimLauncher.launch( () => {
     const sim = new Sim( gasesIntroTitleString, [
-      new IntroScreen( Tandem.rootTandem.createTandem( 'introScreen' ) ),
-      new LawsScreen( Tandem.rootTandem.createTandem( 'lawsScreen' ) )
+      new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
+      new LawsScreen( Tandem.ROOT.createTandem( 'lawsScreen' ) )
     ], simOptions );
     sim.start();
   } );
