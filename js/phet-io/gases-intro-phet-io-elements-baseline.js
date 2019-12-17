@@ -3303,7 +3303,20 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.introScreen.model.stopwatch.locationProperty": {
+    "gasesIntro.introScreen.model.stopwatch.isVisibleProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioDynamicElementArchetype": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "gasesIntro.introScreen.model.stopwatch.positionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioDynamicElementArchetype": false,
@@ -3322,25 +3335,12 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
-      "phetioHighFrequency": false,
+      "phetioHighFrequency": true,
       "phetioPlayback": false,
       "phetioReadOnly": true,
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
-    },
-    "gasesIntro.introScreen.model.stopwatch.visibleProperty": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioDynamicElementArchetype": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "gasesIntro.introScreen.model.temperatureModel.controlTemperatureEnabledProperty": {
       "phetioDocumentation": "indicates whether initial temperature is controlled by the user",
@@ -5396,7 +5396,20 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.lawsScreen.model.stopwatch.locationProperty": {
+    "gasesIntro.lawsScreen.model.stopwatch.isVisibleProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioDynamicElementArchetype": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "gasesIntro.lawsScreen.model.stopwatch.positionProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioDynamicElementArchetype": false,
@@ -5415,25 +5428,12 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioDynamicElementArchetype": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
-      "phetioHighFrequency": false,
+      "phetioHighFrequency": true,
       "phetioPlayback": false,
       "phetioReadOnly": true,
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
-    },
-    "gasesIntro.lawsScreen.model.stopwatch.visibleProperty": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioDynamicElementArchetype": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "gasesIntro.lawsScreen.model.temperatureModel.controlTemperatureEnabledProperty": {
       "phetioDocumentation": "indicates whether initial temperature is controlled by the user",
