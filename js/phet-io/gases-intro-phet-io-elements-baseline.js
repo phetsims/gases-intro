@@ -3056,19 +3056,6 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.introScreen.model.collisionCounter.locationProperty": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<Vector2IO>"
-    },
     "gasesIntro.introScreen.model.collisionCounter.numberOfCollisionsProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
@@ -3081,6 +3068,19 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
+    },
+    "gasesIntro.introScreen.model.collisionCounter.positionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
     },
     "gasesIntro.introScreen.model.collisionCounter.samplePeriodProperty": {
       "phetioDocumentation": "",
@@ -5500,19 +5500,6 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "gasesIntro.lawsScreen.model.collisionCounter.locationProperty": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<Vector2IO>"
-    },
     "gasesIntro.lawsScreen.model.collisionCounter.numberOfCollisionsProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
@@ -5525,6 +5512,19 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
+    },
+    "gasesIntro.lawsScreen.model.collisionCounter.positionProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<Vector2IO>"
     },
     "gasesIntro.lawsScreen.model.collisionCounter.samplePeriodProperty": {
       "phetioDocumentation": "",
