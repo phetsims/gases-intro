@@ -6,33 +6,31 @@
  *
  * @author Chris Malley (PixelZoom, Inc.)
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const gasesIntro = require( 'GASES_INTRO/gasesIntro' );
-  const GasPropertiesIconFactory = require( 'GAS_PROPERTIES/common/view/GasPropertiesIconFactory' );
-  const IdealScreen = require( 'GAS_PROPERTIES/ideal/IdealScreen' );
-  const Tandem = require( 'TANDEM/Tandem' );
+import GasPropertiesIconFactory from '../../../gas-properties/js/common/view/GasPropertiesIconFactory.js';
+import IdealScreen from '../../../gas-properties/js/ideal/IdealScreen.js';
+import Tandem from '../../../tandem/js/Tandem.js';
+import gasesIntroStrings from '../gases-intro-strings.js';
+import gasesIntro from '../gasesIntro.js';
 
-  // constants
-  const screenIntroString = require( 'string!GASES_INTRO/screen.intro' );
+// constants
+const screenIntroString = gasesIntroStrings.screen.intro;
 
-  class IntroScreen extends IdealScreen {
+class IntroScreen extends IdealScreen {
 
-    /**
-     * @param {Tandem} tandem
-     */
-    constructor( tandem ) {
-      assert && assert( tandem instanceof Tandem, `invalid tandem: ${tandem}` );
+  /**
+   * @param {Tandem} tandem
+   */
+  constructor( tandem ) {
+    assert && assert( tandem instanceof Tandem, `invalid tandem: ${tandem}` );
 
-      super( tandem, {
-        name: screenIntroString,
-        homeScreenIcon: GasPropertiesIconFactory.createIntroScreenIcon(),
-        hasHoldConstantControls: false
-      } );
-    }
+    super( tandem, {
+      name: screenIntroString,
+      homeScreenIcon: GasPropertiesIconFactory.createIntroScreenIcon(),
+      hasHoldConstantControls: false
+    } );
   }
+}
 
-  return gasesIntro.register( 'IntroScreen', IntroScreen );
-} );
+gasesIntro.register( 'IntroScreen', IntroScreen );
+export default IntroScreen;

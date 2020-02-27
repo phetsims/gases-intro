@@ -5,49 +5,45 @@
  *
  * @author Chris Malley (PixelZoom, Inc.)
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const GasPropertiesConstants = require( 'GAS_PROPERTIES/common/GasPropertiesConstants' );
-  const GasPropertiesGlobalOptions = require( 'GAS_PROPERTIES/common/GasPropertiesGlobalOptions' );
-  const GasPropertiesGlobalOptionsNode = require( 'GAS_PROPERTIES/common/view/GasPropertiesGlobalOptionsNode' );
-  const IntroScreen = require( 'GASES_INTRO/intro/IntroScreen' );
-  const LawsScreen = require( 'GASES_INTRO/laws/LawsScreen' );
-  const Sim = require( 'JOIST/Sim' );
-  const SimLauncher = require( 'JOIST/SimLauncher' );
-  const Tandem = require( 'TANDEM/Tandem' );
+import GasPropertiesConstants from '../../gas-properties/js/common/GasPropertiesConstants.js';
+import GasPropertiesGlobalOptions from '../../gas-properties/js/common/GasPropertiesGlobalOptions.js';
+import GasPropertiesGlobalOptionsNode from '../../gas-properties/js/common/view/GasPropertiesGlobalOptionsNode.js';
+import Sim from '../../joist/js/Sim.js';
+import SimLauncher from '../../joist/js/SimLauncher.js';
+import Tandem from '../../tandem/js/Tandem.js';
+import gasesIntroStrings from './gases-intro-strings.js';
+import IntroScreen from './intro/IntroScreen.js';
+import LawsScreen from './laws/LawsScreen.js';
 
-  // strings
-  const gasesIntroTitleString = require( 'string!GASES_INTRO/gases-intro.title' );
+const gasesIntroTitleString = gasesIntroStrings[ 'gases-intro' ].title;
 
-  /**
-   * If the pressureNoise query parameter was not specified in the URL, then set it to false.
-   * The default is true for Gas Properties, and this is a workaround to change that default
-   * for this derivative sim.  See https://github.com/phetsims/gases-intro/issues/3
-   */
-  if ( !QueryStringMachine.containsKey( 'pressureNoise' ) ) {
-    GasPropertiesGlobalOptions.pressureNoiseProperty.value = false;
-  }
+/**
+ * If the pressureNoise query parameter was not specified in the URL, then set it to false.
+ * The default is true for Gas Properties, and this is a workaround to change that default
+ * for this derivative sim.  See https://github.com/phetsims/gases-intro/issues/3
+ */
+if ( !QueryStringMachine.containsKey( 'pressureNoise' ) ) {
+  GasPropertiesGlobalOptions.pressureNoiseProperty.value = false;
+}
 
-  const simOptions = {
+const simOptions = {
 
-    // Creates content for the Options dialog, accessible via the PhET menu
-    createOptionsDialogContent: tandem => new GasPropertiesGlobalOptionsNode( {
-      tandem: tandem
-    }),
+  // Creates content for the Options dialog, accessible via the PhET menu
+  createOptionsDialogContent: tandem => new GasPropertiesGlobalOptionsNode( {
+    tandem: tandem
+  } ),
 
-    // Credits appear in the About dialog, accessible via the PhET menu
-    credits: GasPropertiesConstants.CREDITS
-  };
+  // Credits appear in the About dialog, accessible via the PhET menu
+  credits: GasPropertiesConstants.CREDITS
+};
 
-  // launch the sim - beware that scenery Image nodes created outside of SimLauncher.launch() will have zero bounds
-  // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
-  SimLauncher.launch( () => {
-    const sim = new Sim( gasesIntroTitleString, [
-      new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
-      new LawsScreen( Tandem.ROOT.createTandem( 'lawsScreen' ) )
-    ], simOptions );
-    sim.start();
-  } );
+// launch the sim - beware that scenery Image nodes created outside of SimLauncher.launch() will have zero bounds
+// until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
+SimLauncher.launch( () => {
+  const sim = new Sim( gasesIntroTitleString, [
+    new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
+    new LawsScreen( Tandem.ROOT.createTandem( 'lawsScreen' ) )
+  ], simOptions );
+  sim.start();
 } );

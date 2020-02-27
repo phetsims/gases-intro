@@ -5,30 +5,28 @@
  *
  * @author Chris Malley (PixelZoom, Inc.)
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const gasesIntro = require( 'GASES_INTRO/gasesIntro' );
-  const IdealScreen = require( 'GAS_PROPERTIES/ideal/IdealScreen' );
-  const Tandem = require( 'TANDEM/Tandem' );
+import IdealScreen from '../../../gas-properties/js/ideal/IdealScreen.js';
+import Tandem from '../../../tandem/js/Tandem.js';
+import gasesIntroStrings from '../gases-intro-strings.js';
+import gasesIntro from '../gasesIntro.js';
 
-  // constants
-  const screenLawsString = require( 'string!GASES_INTRO/screen.laws' );
+// constants
+const screenLawsString = gasesIntroStrings.screen.laws;
 
-  class LawsScreen extends IdealScreen {
+class LawsScreen extends IdealScreen {
 
-    /**
-     * @param {Tandem} tandem
-     */
-    constructor( tandem ) {
-      assert && assert( tandem instanceof Tandem, `invalid tandem: ${tandem}` );
+  /**
+   * @param {Tandem} tandem
+   */
+  constructor( tandem ) {
+    assert && assert( tandem instanceof Tandem, `invalid tandem: ${tandem}` );
 
-      super( tandem, {
-        name: screenLawsString
-      } );
-    }
+    super( tandem, {
+      name: screenLawsString
+    } );
   }
+}
 
-  return gasesIntro.register( 'LawsScreen', LawsScreen );
-} );
+gasesIntro.register( 'LawsScreen', LawsScreen );
+export default LawsScreen;
