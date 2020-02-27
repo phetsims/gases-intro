@@ -18,15 +18,6 @@ import LawsScreen from './laws/LawsScreen.js';
 
 const gasesIntroTitleString = gasesIntroStrings[ 'gases-intro' ].title;
 
-/**
- * If the pressureNoise query parameter was not specified in the URL, then set it to false.
- * The default is true for Gas Properties, and this is a workaround to change that default
- * for this derivative sim.  See https://github.com/phetsims/gases-intro/issues/3
- */
-if ( !QueryStringMachine.containsKey( 'pressureNoise' ) ) {
-  GasPropertiesGlobalOptions.pressureNoiseProperty.value = false;
-}
-
 const simOptions = {
 
   // Creates content for the Options dialog, accessible via the PhET menu
@@ -41,6 +32,16 @@ const simOptions = {
 // launch the sim - beware that scenery Image nodes created outside of SimLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 SimLauncher.launch( () => {
+
+  /**
+   * If the pressureNoise query parameter was not specified in the URL, then set it to false.
+   * The default is true for Gas Properties, and this is a workaround to change that default
+   * for this derivative sim.  See https://github.com/phetsims/gases-intro/issues/3
+   */
+  if ( !QueryStringMachine.containsKey( 'pressureNoise' ) ) {
+    GasPropertiesGlobalOptions.pressureNoiseProperty.value = false;
+  }
+
   const sim = new Sim( gasesIntroTitleString, [
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
     new LawsScreen( Tandem.ROOT.createTandem( 'lawsScreen' ) )
