@@ -1,4 +1,4 @@
-// Copyright 2019, University of Colorado Boulder
+// Copyright 2019-2020, University of Colorado Boulder
 
 /**
  * The 'Intro' screen is a specialization of the 'Ideal' screen from Gas Properties sim.
