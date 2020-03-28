@@ -9673,6 +9673,19 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
+    "gasesIntro.lawsScreen.view.controlPanel.holdConstantControl.radioButtonGroup.enabledProperty": {
+      "phetioDocumentation": "When disabled, the component is grayed out and cannot be interacted with.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
     "gasesIntro.lawsScreen.view.controlPanel.holdConstantControl.radioButtonGroup.nothingRadioButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
