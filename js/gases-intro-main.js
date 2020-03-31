@@ -12,7 +12,7 @@ import GasPropertiesGlobalOptionsNode from '../../gas-properties/js/common/view/
 import Sim from '../../joist/js/Sim.js';
 import SimLauncher from '../../joist/js/SimLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import gasesIntroStrings from './gases-intro-strings.js';
+import gasesIntroStrings from './gasesIntroStrings.js';
 import IntroScreen from './intro/IntroScreen.js';
 import LawsScreen from './laws/LawsScreen.js';
 

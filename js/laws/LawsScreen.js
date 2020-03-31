@@ -8,7 +8,7 @@
 
 import IdealScreen from '../../../gas-properties/js/ideal/IdealScreen.js';
 import Tandem from '../../../tandem/js/Tandem.js';
-import gasesIntroStrings from '../gases-intro-strings.js';
+import gasesIntroStrings from '../gasesIntroStrings.js';
 import gasesIntro from '../gasesIntro.js';
 
 // constants
