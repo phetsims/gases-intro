@@ -3223,7 +3223,7 @@ window.phet.preloads.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": true,
       "phetioStudioControl": true,
-      "phetioTypeName": "ReferenceIO"
+      "phetioTypeName": "ReferenceIO<ObjectIO>"
     },
     "gasesIntro.introScreen.model.stopwatch.isRunningProperty": {
       "phetioDocumentation": "",
@@ -8813,7 +8813,7 @@ window.phet.preloads.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": true,
       "phetioStudioControl": true,
-      "phetioTypeName": "ReferenceIO"
+      "phetioTypeName": "ReferenceIO<ObjectIO>"
     },
     "gasesIntro.lawsScreen.model.stopwatch.isRunningProperty": {
       "phetioDocumentation": "",
