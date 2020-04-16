@@ -16,8 +16,6 @@ import gasesIntroStrings from './gasesIntroStrings.js';
 import IntroScreen from './intro/IntroScreen.js';
 import LawsScreen from './laws/LawsScreen.js';
 
-const gasesIntroTitleString = gasesIntroStrings[ 'gases-intro' ].title;
-
 const simOptions = {
 
   // Creates content for the Options dialog, accessible via the PhET menu
@@ -42,7 +40,7 @@ SimLauncher.launch( () => {
     GasPropertiesGlobalOptions.pressureNoiseProperty.value = false;
   }
 
-  const sim = new Sim( gasesIntroTitleString, [
+  const sim = new Sim( gasesIntroStrings[ 'gases-intro' ].title, [
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
     new LawsScreen( Tandem.ROOT.createTandem( 'lawsScreen' ) )
   ], simOptions );

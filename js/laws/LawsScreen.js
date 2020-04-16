@@ -8,11 +8,8 @@
 
 import IdealScreen from '../../../gas-properties/js/ideal/IdealScreen.js';
 import Tandem from '../../../tandem/js/Tandem.js';
-import gasesIntroStrings from '../gasesIntroStrings.js';
 import gasesIntro from '../gasesIntro.js';
-
-// constants
-const screenLawsString = gasesIntroStrings.screen.laws;
+import gasesIntroStrings from '../gasesIntroStrings.js';
 
 class LawsScreen extends IdealScreen {
 
@@ -23,7 +20,7 @@ class LawsScreen extends IdealScreen {
     assert && assert( tandem instanceof Tandem, `invalid tandem: ${tandem}` );
 
     super( tandem, {
-      name: screenLawsString
+      name: gasesIntroStrings.screen.laws
     } );
   }
 }

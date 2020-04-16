@@ -10,11 +10,8 @@
 import GasPropertiesIconFactory from '../../../gas-properties/js/common/view/GasPropertiesIconFactory.js';
 import IdealScreen from '../../../gas-properties/js/ideal/IdealScreen.js';
 import Tandem from '../../../tandem/js/Tandem.js';
-import gasesIntroStrings from '../gasesIntroStrings.js';
 import gasesIntro from '../gasesIntro.js';
-
-// constants
-const screenIntroString = gasesIntroStrings.screen.intro;
+import gasesIntroStrings from '../gasesIntroStrings.js';
 
 class IntroScreen extends IdealScreen {
 
@@ -25,7 +22,7 @@ class IntroScreen extends IdealScreen {
     assert && assert( tandem instanceof Tandem, `invalid tandem: ${tandem}` );
 
     super( tandem, {
-      name: screenIntroString,
+      name: gasesIntroStrings.screen.intro,
       homeScreenIcon: GasPropertiesIconFactory.createIntroScreenIcon(),
       hasHoldConstantControls: false
     } );
