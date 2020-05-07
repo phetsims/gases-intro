@@ -10,7 +10,7 @@ import GasPropertiesConstants from '../../gas-properties/js/common/GasProperties
 import GasPropertiesGlobalOptions from '../../gas-properties/js/common/GasPropertiesGlobalOptions.js';
 import GasPropertiesGlobalOptionsNode from '../../gas-properties/js/common/view/GasPropertiesGlobalOptionsNode.js';
 import Sim from '../../joist/js/Sim.js';
-import SimLauncher from '../../joist/js/SimLauncher.js';
+import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import gasesIntroStrings from './gasesIntroStrings.js';
 import IntroScreen from './intro/IntroScreen.js';
@@ -27,9 +27,9 @@ const simOptions = {
   credits: GasPropertiesConstants.CREDITS
 };
 
-// launch the sim - beware that scenery Image nodes created outside of SimLauncher.launch() will have zero bounds
+// launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
-SimLauncher.launch( () => {
+simLauncher.launch( () => {
 
   /**
    * If the pressureNoise query parameter was not specified in the URL, then set it to false.
