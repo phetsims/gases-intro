@@ -11,12 +11,16 @@ import GasPropertiesGlobalOptions from '../../gas-properties/js/common/GasProper
 import GasPropertiesGlobalOptionsNode from '../../gas-properties/js/common/view/GasPropertiesGlobalOptionsNode.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
+import Utils from '../../scenery/js/util/Utils.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import gasesIntroStrings from './gasesIntroStrings.js';
 import IntroScreen from './intro/IntroScreen.js';
 import LawsScreen from './laws/LawsScreen.js';
 
 const simOptions = {
+
+  // Enabled for high-performance Sprites
+  webgl: true,
 
   // Creates content for the Options dialog, accessible via the PhET menu
   createOptionsDialogContent: tandem => new GasPropertiesGlobalOptionsNode( {
@@ -44,5 +48,9 @@ simLauncher.launch( () => {
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
     new LawsScreen( Tandem.ROOT.createTandem( 'lawsScreen' ) )
   ], simOptions );
+
+  // Log whether we're using WebGL, which is the preferred rendering option for Sprites
+  phet.log && phet.log( `using WebGL = ${phet.chipper.queryParameters.webgl && Utils.isWebGLSupported}` );
+
   sim.start();
 } );
