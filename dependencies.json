@@ -1,5 +1,5 @@
 {
-  "comment": "# gases-intro 1.0.5 Mon Mar 08 2021 13:51:46 GMT-0500 (Eastern Standard Time)",
+  "comment": "# gases-intro 1.0.5 Thu Apr 22 2021 13:23:24 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "201c50a840e082354b013f4ab9e9d45006f98cfe",
     "branch": "HEAD"
@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "gases-intro": {
-    "sha": "b43ace4cfc6cc6d60c92d00c27ea579ed40fd9fb",
+    "sha": "4d60770c6b4a2529f1eefe7fa67da44c0d060c57",
     "branch": "1.0"
   },
   "joist": {
@@ -54,15 +54,15 @@
   },
   "phetmarks": {
     "sha": "721874d5650dc4f90e6844b4e91f977f8441d089",
-    "branch": "gases-intro-1.0"
+    "branch": "HEAD"
   },
   "query-string-machine": {
     "sha": "c4c6d494b474aeb14d700a8142da81776f62a2ba",
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "ce9c59f525cabf182a871b70ef600b9c0569795a",
-    "branch": "HEAD"
+    "sha": "2a9bddab178fcba28352b276e71c5e62c1bc3811",
+    "branch": "gases-intro-1.0"
   },
   "scenery-phet": {
     "sha": "d8bd82ef61dea2a2fca0f104dbef078c210b782c",
