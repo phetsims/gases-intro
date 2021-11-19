@@ -3,11 +3,21 @@
 /**
  * Auto-generated from modulify, DO NOT manually modify.
  */
-
+/* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
 import gasesIntro from './gasesIntro.js';
 
-const gasesIntroStrings = getStringModule( 'GASES_INTRO' );
+type StringsType = {
+  'gases-intro': {
+    'title': string
+  },
+  'screen': {
+    'intro': string,
+    'laws': string
+  }
+};
+
+const gasesIntroStrings = getStringModule( 'GASES_INTRO' ) as StringsType;
 
 gasesIntro.register( 'gasesIntroStrings', gasesIntroStrings );
 
