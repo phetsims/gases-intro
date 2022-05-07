@@ -9,11 +9,11 @@ import gasesIntro from './gasesIntro.js';
 
 type StringsType = {
   'gases-intro': {
-    'title': string
-  },
+    'title': string;
+  };
   'screen': {
-    'intro': string,
-    'laws': string
+    'intro': string;
+    'laws': string;
   }
 };
 
