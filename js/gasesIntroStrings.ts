@@ -5,15 +5,19 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
+import TReadOnlyProperty from '../../axon/js/TReadOnlyProperty.js';
 import gasesIntro from './gasesIntro.js';
 
 type StringsType = {
   'gases-intro': {
     'title': string;
+    'titleProperty': TReadOnlyProperty<string>;
   };
   'screen': {
     'intro': string;
+    'introProperty': TReadOnlyProperty<string>;
     'laws': string;
+    'lawsProperty': TReadOnlyProperty<string>;
   }
 };
 
