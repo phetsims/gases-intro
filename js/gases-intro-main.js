@@ -9,6 +9,7 @@
 import GasPropertiesConstants from '../../gas-properties/js/common/GasPropertiesConstants.js';
 import GasPropertiesGlobalOptions from '../../gas-properties/js/common/GasPropertiesGlobalOptions.js';
 import GasPropertiesGlobalOptionsNode from '../../gas-properties/js/common/view/GasPropertiesGlobalOptionsNode.js';
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import { Utils } from '../../scenery/js/imports.js';
@@ -21,10 +22,12 @@ const simOptions = {
 
   // Enabled for high-performance Sprites
   webgl: true,
-
-  // Creates content for the Options dialog, accessible via the PhET menu
-  createOptionsDialogContent: tandem => new GasPropertiesGlobalOptionsNode( {
-    tandem: tandem
+  preferencesModel: new PreferencesModel( {
+    generalOptions: {
+      customPreferences: [ {
+        createContent: tandem => new GasPropertiesGlobalOptionsNode( { tandem: tandem } )
+      } ]
+    }
   } ),
 
   // Credits appear in the About dialog, accessible via the PhET menu
