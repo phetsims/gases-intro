@@ -7,8 +7,8 @@
  */
 
 import GasPropertiesConstants from '../../gas-properties/js/common/GasPropertiesConstants.js';
-import GasPropertiesGlobalOptions from '../../gas-properties/js/common/model/GasPropertiesGlobalOptions.js';
-import GasPropertiesGlobalOptionsNode from '../../gas-properties/js/common/view/GasPropertiesGlobalOptionsNode.js';
+import GasPropertiesPreferences from '../../gas-properties/js/common/model/GasPropertiesPreferences.js';
+import GasPropertiesPreferencesNode from '../../gas-properties/js/common/view/GasPropertiesPreferencesNode.js';
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
@@ -28,8 +28,8 @@ const simOptions = {
     },
     generalOptions: {
       customPreferences: [ {
-        createContent: tandem => new GasPropertiesGlobalOptionsNode( {
-          tandem: tandem.createTandem( 'gasPropertiesPreferencesContent' )
+        createContent: tandem => new GasPropertiesPreferencesNode( {
+          tandem: tandem.createTandem( 'simPreferences' )
         } )
       } ]
     }
@@ -49,7 +49,7 @@ simLauncher.launch( () => {
    * for this derivative sim.  See https://github.com/phetsims/gases-intro/issues/3
    */
   if ( !QueryStringMachine.containsKey( 'pressureNoise' ) ) {
-    GasPropertiesGlobalOptions.pressureNoiseProperty.value = false;
+    GasPropertiesPreferences.pressureNoiseProperty.value = false;
   }
 
   const sim = new Sim( gasesIntroStrings[ 'gases-intro' ].title, [
