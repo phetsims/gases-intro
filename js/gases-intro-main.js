@@ -7,7 +7,7 @@
  */
 
 import GasPropertiesConstants from '../../gas-properties/js/common/GasPropertiesConstants.js';
-import GasPropertiesGlobalOptions from '../../gas-properties/js/common/GasPropertiesGlobalOptions.js';
+import GasPropertiesGlobalOptions from '../../gas-properties/js/common/model/GasPropertiesGlobalOptions.js';
 import GasPropertiesGlobalOptionsNode from '../../gas-properties/js/common/view/GasPropertiesGlobalOptionsNode.js';
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import Sim from '../../joist/js/Sim.js';
