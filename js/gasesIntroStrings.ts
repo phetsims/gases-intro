@@ -11,13 +11,13 @@ import gasesIntro from './gasesIntro.js';
 type StringsType = {
   'gases-intro': {
     'title': string;
-    'titleProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': TReadOnlyProperty<string>;
   };
   'screen': {
     'intro': string;
-    'introProperty': TReadOnlyProperty<string>;
+    'introStringProperty': TReadOnlyProperty<string>;
     'laws': string;
-    'lawsProperty': TReadOnlyProperty<string>;
+    'lawsStringProperty': TReadOnlyProperty<string>;
   }
 };
 
