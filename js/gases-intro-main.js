@@ -52,7 +52,7 @@ simLauncher.launch( () => {
     GasPropertiesPreferences.pressureNoiseProperty.value = false;
   }
 
-  const sim = new Sim( gasesIntroStrings[ 'gases-intro' ].title, [
+  const sim = new Sim( gasesIntroStrings[ 'gases-intro' ].titleStringProperty, [
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
     new LawsScreen( Tandem.ROOT.createTandem( 'lawsScreen' ) )
   ], simOptions );
