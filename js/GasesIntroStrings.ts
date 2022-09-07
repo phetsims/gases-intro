@@ -21,8 +21,8 @@ type StringsType = {
   }
 };
 
-const gasesIntroStrings = getStringModule( 'GASES_INTRO' ) as StringsType;
+const GasesIntroStrings = getStringModule( 'GASES_INTRO' ) as StringsType;
 
-gasesIntro.register( 'gasesIntroStrings', gasesIntroStrings );
+gasesIntro.register( 'GasesIntroStrings', GasesIntroStrings );
 
-export default gasesIntroStrings;
+export default GasesIntroStrings;

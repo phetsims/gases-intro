@@ -14,7 +14,7 @@ import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import { Utils } from '../../scenery/js/imports.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import gasesIntroStrings from './gasesIntroStrings.js';
+import GasesIntroStrings from './GasesIntroStrings.js';
 import IntroScreen from './intro/IntroScreen.js';
 import LawsScreen from './laws/LawsScreen.js';
 
@@ -52,7 +52,7 @@ simLauncher.launch( () => {
     GasPropertiesPreferences.pressureNoiseProperty.value = false;
   }
 
-  const sim = new Sim( gasesIntroStrings[ 'gases-intro' ].titleStringProperty, [
+  const sim = new Sim( GasesIntroStrings[ 'gases-intro' ].titleStringProperty, [
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
     new LawsScreen( Tandem.ROOT.createTandem( 'lawsScreen' ) )
   ], simOptions );
