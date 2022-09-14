@@ -20,7 +20,7 @@ class LawsScreen extends IdealScreen {
     assert && assert( tandem instanceof Tandem, `invalid tandem: ${tandem}` );
 
     super( tandem, {
-      name: GasesIntroStrings.screen.laws
+      name: GasesIntroStrings.screen.lawsStringProperty
     } );
   }
 }

@@ -22,7 +22,7 @@ class IntroScreen extends IdealScreen {
     assert && assert( tandem instanceof Tandem, `invalid tandem: ${tandem}` );
 
     super( tandem, {
-      name: GasesIntroStrings.screen.intro,
+      name: GasesIntroStrings.screen.introStringProperty,
       homeScreenIcon: GasPropertiesIconFactory.createIntroScreenIcon(),
       hasHoldConstantControls: false
     } );
