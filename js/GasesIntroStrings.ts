@@ -10,13 +10,10 @@ import gasesIntro from './gasesIntro.js';
 
 type StringsType = {
   'gases-intro': {
-    'title': string;
     'titleStringProperty': LinkableProperty<string>;
   };
   'screen': {
-    'intro': string;
     'introStringProperty': LinkableProperty<string>;
-    'laws': string;
     'lawsStringProperty': LinkableProperty<string>;
   }
 };
