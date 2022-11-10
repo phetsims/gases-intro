@@ -1,5 +1,6 @@
 // Copyright 2019-2022, University of Colorado Boulder
 
+// @ts-nocheck
 /**
  * The 'Laws' screen is identical to the 'Ideal' screen from Gas Properties sim, with a different title.
  *
