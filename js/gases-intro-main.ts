@@ -1,6 +1,5 @@
 // Copyright 2019-2022, University of Colorado Boulder
 
-// @ts-nocheck
 /**
  * Main entry point for the sim.
  *
@@ -19,29 +18,6 @@ import GasesIntroStrings from './GasesIntroStrings.js';
 import IntroScreen from './intro/IntroScreen.js';
 import LawsScreen from './laws/LawsScreen.js';
 
-const simOptions = {
-
-  // Enabled for high-performance Sprites
-  webgl: true,
-  preferencesModel: new PreferencesModel( {
-    visualOptions: {
-      supportsProjectorMode: true
-    },
-    simulationOptions: {
-      customPreferences: [ {
-        createContent: tandem => new GasPropertiesPreferencesNode( {
-          tandem: tandem.createTandem( 'simPreferences' )
-        } )
-      } ]
-    }
-  } ),
-
-  // Credits appear in the About dialog, accessible via the PhET menu
-  credits: GasPropertiesConstants.CREDITS
-};
-
-// launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
-// until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
 
   /**
@@ -53,10 +29,27 @@ simLauncher.launch( () => {
     GasPropertiesPreferences.pressureNoiseProperty.value = false;
   }
 
-  const sim = new Sim( GasesIntroStrings[ 'gases-intro' ].titleStringProperty, [
+  const screens = [
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
     new LawsScreen( Tandem.ROOT.createTandem( 'lawsScreen' ) )
-  ], simOptions );
+  ];
+
+  const sim = new Sim( GasesIntroStrings[ 'gases-intro' ].titleStringProperty, screens, {
+    webgl: true, // Enabled for high-performance Sprites
+    credits: GasPropertiesConstants.CREDITS,
+    preferencesModel: new PreferencesModel( {
+      visualOptions: {
+        supportsProjectorMode: true
+      },
+      simulationOptions: {
+        customPreferences: [ {
+          createContent: tandem => new GasPropertiesPreferencesNode( {
+            tandem: tandem.createTandem( 'simPreferences' )
+          } )
+        } ]
+      }
+    } )
+  } );
 
   // Log whether we're using WebGL, which is the preferred rendering option for Sprites
   phet.log && phet.log( `using WebGL = ${phet.chipper.queryParameters.webgl && Utils.isWebGLSupported}` );

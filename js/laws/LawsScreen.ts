@@ -1,6 +1,5 @@
 // Copyright 2019-2022, University of Colorado Boulder
 
-// @ts-nocheck
 /**
  * The 'Laws' screen is identical to the 'Ideal' screen from Gas Properties sim, with a different title.
  *
@@ -12,14 +11,9 @@ import Tandem from '../../../tandem/js/Tandem.js';
 import gasesIntro from '../gasesIntro.js';
 import GasesIntroStrings from '../GasesIntroStrings.js';
 
-class LawsScreen extends IdealScreen {
+export default class LawsScreen extends IdealScreen {
 
-  /**
-   * @param {Tandem} tandem
-   */
-  constructor( tandem ) {
-    assert && assert( tandem instanceof Tandem, `invalid tandem: ${tandem}` );
-
+  public constructor( tandem: Tandem ) {
     super( tandem, {
       name: GasesIntroStrings.screen.lawsStringProperty
     } );
@@ -27,4 +21,3 @@ class LawsScreen extends IdealScreen {
 }
 
 gasesIntro.register( 'LawsScreen', LawsScreen );
-export default LawsScreen;

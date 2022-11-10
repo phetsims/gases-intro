@@ -1,6 +1,5 @@
 // Copyright 2019-2022, University of Colorado Boulder
 
-// @ts-nocheck
 /**
  * The 'Intro' screen is a specialization of the 'Ideal' screen from Gas Properties sim.
  * It has a different title & icon, and no 'Hold Constant' control.
@@ -14,14 +13,9 @@ import Tandem from '../../../tandem/js/Tandem.js';
 import gasesIntro from '../gasesIntro.js';
 import GasesIntroStrings from '../GasesIntroStrings.js';
 
-class IntroScreen extends IdealScreen {
+export default class IntroScreen extends IdealScreen {
 
-  /**
-   * @param {Tandem} tandem
-   */
-  constructor( tandem ) {
-    assert && assert( tandem instanceof Tandem, `invalid tandem: ${tandem}` );
-
+  public constructor( tandem: Tandem ) {
     super( tandem, {
       name: GasesIntroStrings.screen.introStringProperty,
       homeScreenIcon: GasPropertiesIconFactory.createIntroScreenIcon(),
@@ -31,4 +25,3 @@ class IntroScreen extends IdealScreen {
 }
 
 gasesIntro.register( 'IntroScreen', IntroScreen );
-export default IntroScreen;
