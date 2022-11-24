@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "gases-intro": {
-    "sha": "7838f2024cc42048c8a25b9fa11fce153b969447",
+    "sha": "0e197a658d14c112f2498f12d4083700d73510e5",
     "branch": "1.0"
   },
   "joist": {
@@ -61,7 +61,7 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "cd200932e0bf537d0a013a6d9b0bac9ba77539d2",
+    "sha": "0c7cbaff7d2b21123db1d14ddae2d406f0b5cef2",
     "branch": "HEAD"
   },
   "scenery-phet": {
