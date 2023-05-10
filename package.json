@@ -22,6 +22,10 @@
       "phet",
       "phet-io",
       "adapted-from-phet"
+    ],
+    "screenNameKeys": [
+      "GASES_INTRO/screen.intro",
+      "GASES_INTRO/screen.laws"
     ]
   },
   "eslintConfig": {
