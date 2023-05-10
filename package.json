@@ -30,7 +30,11 @@
       ]
     },
     "supportsOutputJS": true,
-    "published": true
+    "published": true,
+    "screenNameKeys": [
+      "GASES_INTRO/screen.intro",
+      "GASES_INTRO/screen.laws"
+    ]
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js",

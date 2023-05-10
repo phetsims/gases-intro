@@ -52,10 +52,33 @@
           ]
         },
         "supportsOutputJS": true,
-        "published": true
+        "published": true,
+        "screenNameKeys": [
+          "GASES_INTRO/screen.intro",
+          "GASES_INTRO/screen.laws"
+        ]
       },
       "eslintConfig": {
-        "extends": "../chipper/eslint/sim_eslintrc.js"
+        "extends": "../chipper/eslint/sim_eslintrc.js",
+        "overrides": [
+          {
+            "files": [
+              "**/*.ts"
+            ],
+            "rules": {
+              "@typescript-eslint/no-explicit-any": "error",
+              "@typescript-eslint/ban-ts-comment": [
+                "error",
+                {
+                  "ts-expect-error": true,
+                  "ts-ignore": true,
+                  "ts-check": true,
+                  "ts-nocheck": true
+                }
+              ]
+            }
+          }
+        ]
       }
     };
   window.phet.chipper.stringRepos =
