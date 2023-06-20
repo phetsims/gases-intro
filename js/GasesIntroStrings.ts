@@ -5,16 +5,16 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
-import LinkableProperty from '../../axon/js/LinkableProperty.js';
+import type LocalizedStringProperty from '../../chipper/js/LocalizedStringProperty.js';
 import gasesIntro from './gasesIntro.js';
 
 type StringsType = {
   'gases-intro': {
-    'titleStringProperty': LinkableProperty<string>;
+    'titleStringProperty': LocalizedStringProperty;
   };
   'screen': {
-    'introStringProperty': LinkableProperty<string>;
-    'lawsStringProperty': LinkableProperty<string>;
+    'introStringProperty': LocalizedStringProperty;
+    'lawsStringProperty': LocalizedStringProperty;
   }
 };
 
