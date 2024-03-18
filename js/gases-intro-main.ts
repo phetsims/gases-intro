@@ -22,8 +22,8 @@ simLauncher.launch( () => {
 
   /**
    * If the pressureNoise query parameter was not specified in the URL, then set it to false.
-   * The default is true for Gas Properties, and this is a workaround to change that default
-   * for this derivative sim.  See https://github.com/phetsims/gases-intro/issues/3
+   * The default is true for Gas Properties, false for Gases Intro.
+   * See https://github.com/phetsims/gases-intro/issues/3
    */
   if ( !QueryStringMachine.containsKey( 'pressureNoise' ) ) {
     GasPropertiesPreferences.pressureNoiseProperty.value = false;
