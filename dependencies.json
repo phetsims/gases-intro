@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "5fbe2f92a5ebc2328ac21cbd14a9571508fce4ce",
+    "sha": "dd6279eb0abfba18c2ebd6141d0c9bac60be5fbf",
     "branch": "HEAD"
   },
   "dot": {
@@ -25,11 +25,11 @@
     "branch": "HEAD"
   },
   "gases-intro": {
-    "sha": "7431d5dad6027cd66532215aa5af08791c4aeec0",
+    "sha": "b319ea329afcf43f7442353604c4ddf06b656b89",
     "branch": "1.0"
   },
   "joist": {
-    "sha": "3a2f24235412b411f01893289ce13e1384b86b18",
+    "sha": "fa741b0e70b9ebc61c905ea6c27d5103980b1b81",
     "branch": "HEAD"
   },
   "kite": {
