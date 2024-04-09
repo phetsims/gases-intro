@@ -43,7 +43,7 @@ simLauncher.launch( () => {
       },
       simulationOptions: {
         customPreferences: [ {
-          createContent: tandem => new GasPropertiesPreferencesNode( tandem.createTandem( 'simPreferences' ) )
+          createContent: tandem => new GasPropertiesPreferencesNode( tandem )
         } ]
       }
     } )
