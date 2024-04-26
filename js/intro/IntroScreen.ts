@@ -19,7 +19,7 @@ export default class IntroScreen extends IdealScreen {
     super( tandem, {
       name: GasesIntroStrings.screen.introStringProperty,
       homeScreenIcon: GasPropertiesIconFactory.createIntroScreenIcon(),
-      hasHoldConstantControls: false
+      hasHoldConstantPanel: false
     } );
   }
 }
