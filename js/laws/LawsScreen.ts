@@ -15,7 +15,8 @@ export default class LawsScreen extends IdealScreen {
 
   public constructor( tandem: Tandem ) {
     super( tandem, {
-      name: GasesIntroStrings.screen.lawsStringProperty
+      name: GasesIntroStrings.screen.lawsStringProperty,
+      hasHoldConstantFeature: true
     } );
   }
 }
