@@ -35,6 +35,7 @@ simLauncher.launch( () => {
   ];
 
   const sim = new Sim( GasesIntroStrings[ 'gases-intro' ].titleStringProperty, screens, {
+    phetioDesigned: true,
     webgl: true, // Enabled for high-performance Sprites
     credits: GasPropertiesConstants.CREDITS,
     preferencesModel: new PreferencesModel( {
