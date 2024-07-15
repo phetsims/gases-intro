@@ -1,5 +1,5 @@
 {
-  "comment": "# gases-intro 1.1.0-rc.1 Wed Jul 10 2024 18:29:41 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# gases-intro 1.1.0-rc.1 Mon Jul 15 2024 17:36:50 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -21,11 +21,11 @@
     "branch": "HEAD"
   },
   "gas-properties": {
-    "sha": "e7126595eca0b991c941d7257ec7ccfb924fa580",
-    "branch": "HEAD"
+    "sha": "d50ef81e8e30dd21fce02736a8f2a5c78812acde",
+    "branch": "gases-intro-1.1"
   },
   "gases-intro": {
-    "sha": "fc1e8135604a9a5a082a04a6bfa6faa164d1e924",
+    "sha": "5980c20ccb2f80c3f250f29e83e29a2441e1a3cc",
     "branch": "1.1"
   },
   "joist": {
