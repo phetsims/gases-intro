@@ -25,11 +25,11 @@
     "branch": "gases-intro-1.1"
   },
   "gases-intro": {
-    "sha": "7dcf1b954c81cef7fa75a03efd14fad3b78127ea",
+    "sha": "e2c3da4e39fc53624080da71198f2575398f6221",
     "branch": "1.1"
   },
   "joist": {
-    "sha": "a6fe24d73cca6f04ff00a202202869de923c4fae",
+    "sha": "09c7b857d962c00d2b37c3aba2d778305872158d",
     "branch": "HEAD"
   },
   "kite": {
