@@ -1,5 +1,5 @@
 {
-  "comment": "# gases-intro 1.1.0-rc.1 Mon Jul 22 2024 10:58:50 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# gases-intro 1.1.0-rc.1 Mon Jul 22 2024 15:10:08 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -22,10 +22,10 @@
   },
   "gas-properties": {
     "sha": "a0200f8999f3a6473113ede4faadfd8eb9b4fbb0",
-    "branch": "gases-intro-1.1"
+    "branch": "HEAD"
   },
   "gases-intro": {
-    "sha": "8a6d2de52f21008d4ff7538c4d1c3b0aee9e0304",
+    "sha": "9b13c193424b1fd4bc808c1b4a9e169ee5a47325",
     "branch": "1.1"
   },
   "joist": {
@@ -49,8 +49,8 @@
     "branch": "HEAD"
   },
   "phet-io-sim-specific": {
-    "sha": "cd7d568a04bd9ba224bb04df596579ba7dd2101e",
-    "branch": "HEAD"
+    "sha": "01eb582ef10cecbe473b930b2850c3b1757ed710",
+    "branch": "gases-intro-1.1"
   },
   "phet-io-wrappers": {
     "sha": "af7ae6d4b597fdb0c1f7bd267d4bd1b1fb6cd6b4",
