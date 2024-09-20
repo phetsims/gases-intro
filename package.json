@@ -58,6 +58,11 @@
               "ts-nocheck": true
             }
           ]
+        },
+        "parserOptions": {
+          "project": [
+            "../gases-intro/tsconfig.json"
+          ]
         }
       }
     ]
