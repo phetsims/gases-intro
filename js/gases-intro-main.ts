@@ -13,7 +13,7 @@ import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import Sim, { SimOptions } from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import { combineOptions } from '../../phet-core/js/optionize.js';
-import { Utils } from '../../scenery/js/imports.js';
+import Utils from '../../scenery/js/util/Utils.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import GasesIntroStrings from './GasesIntroStrings.js';
 import IntroScreen from './intro/IntroScreen.js';
