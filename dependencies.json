@@ -9,11 +9,11 @@
     "branch": "HEAD"
   },
   "brand": {
-    "sha": "0e84d480a4e3e5ce0fc42537467d09e7d3ffb192",
+    "sha": "526a3e292d04aa99efd39648ee86803a7d1f78c0",
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "4e12e7820082cfddd7de7d7b532b07df6581a9de",
+    "sha": "14bf805290f70a664f7488d946831dd7c00dbefc",
     "branch": "HEAD"
   },
   "dot": {
@@ -25,11 +25,11 @@
     "branch": "HEAD"
   },
   "gases-intro": {
-    "sha": "eca4f57b80b2e53555a09061503b2907dadd489a",
+    "sha": "7a4cb10efd942f4a1d88fbe4870f9391ba0b27af",
     "branch": "1.1"
   },
   "joist": {
-    "sha": "b30a3deff19465eedacdc5474b0ee1181a3a8dde",
+    "sha": "13c408ea7c20ca0f48ddce9158194a24ebdb1c02",
     "branch": "HEAD"
   },
   "kite": {
@@ -53,7 +53,7 @@
     "branch": "HEAD"
   },
   "phet-io-wrappers": {
-    "sha": "9d0be365cacece57fb262befd9192bb2701b8fd8",
+    "sha": "7681084675f0e531ae999077be3fc5a232e02c49",
     "branch": "HEAD"
   },
   "phetcommon": {
