@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "gases-intro": {
-    "sha": "e9030280cdcc8b0a49e3b5e870ca63b745516d96",
+    "sha": "7d19245d3748c94d0be95e30dab06856979ba56e",
     "branch": "1.1"
   },
   "joist": {
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "perennial-alias": {
-    "sha": "c6e4e67c88f96101dc96c96e01c1babae2231e8f",
+    "sha": "c3ee06d010f8643ec4c38a887012e160aa6805d6",
     "branch": "HEAD"
   },
   "phet-core": {
