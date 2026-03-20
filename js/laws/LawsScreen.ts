@@ -8,7 +8,6 @@
 
 import IdealScreen from '../../../gas-properties/js/ideal/IdealScreen.js';
 import Tandem from '../../../tandem/js/Tandem.js';
-import gasesIntro from '../gasesIntro.js';
 import GasesIntroStrings from '../GasesIntroStrings.js';
 
 export default class LawsScreen extends IdealScreen {
@@ -20,5 +19,3 @@ export default class LawsScreen extends IdealScreen {
     } );
   }
 }
-
-gasesIntro.register( 'LawsScreen', LawsScreen );

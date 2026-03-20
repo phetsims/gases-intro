@@ -10,7 +10,6 @@
 import GasPropertiesIconFactory from '../../../gas-properties/js/common/view/GasPropertiesIconFactory.js';
 import IdealScreen from '../../../gas-properties/js/ideal/IdealScreen.js';
 import Tandem from '../../../tandem/js/Tandem.js';
-import gasesIntro from '../gasesIntro.js';
 import GasesIntroStrings from '../GasesIntroStrings.js';
 
 export default class IntroScreen extends IdealScreen {
@@ -23,5 +22,3 @@ export default class IntroScreen extends IdealScreen {
     } );
   }
 }
-
-gasesIntro.register( 'IntroScreen', IntroScreen );
