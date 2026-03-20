@@ -23,4 +23,6 @@ type StringsType = {
 
 const GasesIntroStrings = getStringModule( 'GASES_INTRO' ) as StringsType;
 
+gasesIntro.register( 'GasesIntroStrings', GasesIntroStrings );
+
 export default GasesIntroStrings;
